@@ -5,8 +5,8 @@ class Player:
         self.name = name
         self.player_deck = []
 
-    def remove_card(self):
-        return self.player_deck.pop[0]
+    def play_card(self):
+        return self.player_deck.pop(0)
 
     def add_cards(self, new_cards):
         if type(new_cards) == type([]):
